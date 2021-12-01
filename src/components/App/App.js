@@ -29,8 +29,8 @@ class App extends BaseElement {
   }
 
   addCheckbox(label) {
-    // const checkbox = document.createElement('my-checkbox');
-    const checkbox = document.createElement('adv-checkbox');
+    const checkbox = document.createElement('my-checkbox');
+    // const checkbox = document.createElement('adv-checkbox');
     const id = this.querySelectorAll(checkbox.tagName).length + 1;
 
     checkbox.setAttribute('label', label);

@@ -61,12 +61,12 @@ HTML:
 
 ### Support (source: [caniuse.com/custom-elementsv1](https://caniuse.com/custom-elementsv1)):
 
-- Safari (cur 15.1): 10.1+ partial support - supports "Autonomous custom elements" but not "Customized built-in elements"
-- Safari on iOS (cur 15): 10.3+ partial support - supports "Autonomous custom elements" but not "Customized built-in elements"
-- Firefox (cur 94): 63+ full support
-- Chrome (cur 96): 67+ full support
+- **Safari (cur 15.1)**: 10.1+ partial support - supports "Autonomous custom elements" but not "Customized built-in elements"
+- **Safari on iOS (cur 15)**: 10.3+ partial support - supports "Autonomous custom elements" but not "Customized built-in elements"
+- **Firefox (cur 94)**: 63+ full support
+- **Chrome (cur 96)**: 67+ full support
   - 54-66 partial support - supports "Autonomous custom elements" but not "Customized built-in elements"
-- Edge (cur 96): 79+ full support
+- **Edge (cur 96)**: 79+ full support
 
 
 
@@ -89,16 +89,16 @@ console.log(this.shadowRoot); // -> #shadow-root (open)
 ```js
 const shadow = this.attachShadow({ mode: 'closed' });
 console.log(this.shadowRoot) // -> null
-console.log(shadow) // -> #shadow-root (open)
+console.log(shadow) // -> #shadow-root (closed)
 ```
 
 ### Support (source: [caniuse.com/shadowdomv1](https://caniuse.com/shadowdomv1)):
-- Safari (cur 15.1): 10+ full support
-- Safari on iOS (cur 15): 11+ full support
+- **Safari (cur 15.1)**: 10+ full support
+- **Safari on iOS (cur 15)**: 11+ full support
   - 10-10.3 partial support - certain CSS selectors do no work (`:host > .local-child`) and styling slitted content (`::slotted`) is buggy
-- Firefox (cur 94): 63+ full support
-- Chrome (cur 96): 53+ full support
-- Edge (cur 96): 79+ full support
+- **Firefox (cur 94)**: 63+ full support
+- **Chrome (cur 96)**: 53+ full support
+- **Edge (cur 96)**: 79+ full support
 
 
 
@@ -109,11 +109,11 @@ Method of declaring a portion of reusable markup that is parsed but not rendered
   - Slots
 
 ### Support (source: [caniuse.com/template](https://caniuse.com/template)):
-- Safari (cur 15.1): 9+ full support
-- Safari on iOS (cur 15): 9+ full support
+- **Safari (cur 15.1)**: 9+ full support
+- **Safari on iOS (cur 15)**: 9+ full support
   - 8-8.4 partial support - does not support `Document.importNode` and `Node.cloneNode` on templates, nested templates or elements that contain templates
-- Firefox (cur 94): 22+ full support
-- Chrome (cur 96): 35+ full support
+- **Firefox (cur 94)**: 22+ full support
+- **Chrome (cur 96)**: 35+ full support
   - 26-35 partial support - does not support `Document.importNode` on templates, nested templates or elements that contain templates
-- Edge (cur 96): 15+ full support
+- **Edge (cur 96)**: 15+ full support
   - 13-14 partial support - does not support `Document.importNode` and `Node.cloneNode` on templates, nested templates or elements that contain templates
