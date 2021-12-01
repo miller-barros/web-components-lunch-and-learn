@@ -1,0 +1,15 @@
+body * {
+  box-sizing: border-box;
+}
+
+.my-app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+}
+
+.my-app form {
+  margin-bottom: 1rem;
+}

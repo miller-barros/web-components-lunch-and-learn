@@ -1,0 +1,14 @@
+<main class="app__main">
+  <form>
+    <input type="text" name="label" placeholder="Label" required />
+    <button type="submit">Add</button>
+  </form>
+</main>
+
+<template id="checkbox-template">
+  <label>
+    <input type="checkbox" />
+    <slot name="label"><span>Checkbox</span></slot>
+    <button type="button">X</button>
+  </label>
+</template>

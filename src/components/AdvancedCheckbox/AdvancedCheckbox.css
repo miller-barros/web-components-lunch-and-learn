@@ -1,0 +1,8 @@
+body {
+  background-color: red;
+}
+
+.adv-checkbox {
+  display: flex;
+  padding: 0.5rem;
+}

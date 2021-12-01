@@ -1,0 +1,33 @@
+{
+  "name": "web-components-lunch-and-learn",
+  "version": "1.0.0",
+  "description": "Web Components - Lunch & Learn",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "webpack",
+    "start": "webpack serve",
+    "eslint": "eslint src/**/*.js --fix",
+    "stylelint": "stylelint \"src/**/*.scss\" --fix",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "author": "Miller Barros",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-webpack-plugin": "^5.3.2",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.2.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
